@@ -11,3 +11,4 @@ const a = new Date("1994-08-19"),
     b = new Date(),
     difference = dateDiffInDays(a, b);
 
+document.getElementById("days").innerText = difference;
