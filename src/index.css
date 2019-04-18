@@ -3,6 +3,10 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+a:hover {
+	background-color: yellow;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
 	body {
 		font-size: 72px !important;

@@ -10,3 +10,4 @@ function dateDiffInDays(a, b) {
 const a = new Date("1994-08-19"),
     b = new Date(),
     difference = dateDiffInDays(a, b);
+
