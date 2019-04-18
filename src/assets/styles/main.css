@@ -3,6 +3,22 @@ body {
 	font-family: 'Montserrat', sans-serif;
 }
 
+
+  
+  img:hover {
+	animation: wiggle 0.01s;
+	animation-iteration-count: infinite;
+  }
+  
+  @keyframes wiggle {
+	0% { transform: translate(1.5px, 0); }
+	50% { transform: translate(-1.5px, 0); }
+	100% { transform: translate(1.5px, 0); }
+  }
+
+  
+  
+
 a:hover {
 	background-color: yellow;
 }
