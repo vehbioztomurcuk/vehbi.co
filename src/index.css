@@ -1,0 +1,98 @@
+body {
+	background-image: linear-gradient(to right, #fdfbfb 0%, #ebedee 100%);
+	font-family: 'Montserrat', sans-serif;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		font-size: 72px !important;
+	}
+	.mail {
+		font-size: 40px !important;
+	}
+	.name {
+		font-size: 72px !important;
+	}
+	.days {
+		font-size: 42px !important;
+	}
+	.image {
+		position: relative !important;
+		overflow: hidden !important;
+		max-width: 100% !important;
+		height: auto !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) {
+	body {
+		font-size: 72px !important;
+	}
+	.mail {
+		font-size: 40px !important;
+	}
+	.name {
+		font-size: 72px !important;
+	}
+	.days {
+		font-size: 42px !important;
+	}
+	.image {
+		position: relative !important;
+		overflow: hidden !important;
+		max-width: 100% !important;
+		height: auto !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+	body {
+		font-size: 72px !important;
+	}
+	.mail {
+		font-size: 40px !important;
+	}
+	.name {
+		font-size: 72px !important;
+	}
+	.days {
+		font-size: 42px !important;
+	}
+	.image {
+		position: relative !important;
+		overflow: hidden !important;
+		max-width: 100% !important;
+		height: auto !important;
+		margin-bottom: 20px !important;
+	}
+}
+
+.mail {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	padding-right: 20px;
+	font-size: 12px;
+}
+
+.name {
+	font-size: 20px;
+}
+
+.image {
+	position: relative;
+	overflow: hidden;
+	max-width: 30%;
+	height: auto;
+	margin-bottom: 20px;
+}
+
+.days {
+	font-size: 11px;
+}
+
+.desc {
+	padding-top: 40px;
+}
